@@ -76,9 +76,30 @@
   margin-top: 10px;
 }
 
+/* inizio parte bottom */
+.bottom-left{
+  height: 100%;
+  width: 30%;
+  padding: 30px;
+  background-color: black;
+}
 
+.bottom-right{
+  height: 100%;
+  width: 30%;
+  background-color: pink;
+}
 
+.bottom-right ul li{
+  text-decoration: none;
+  display: inline;
+  padding: 10px;
+  margin-top: 10px;
+}
 
+.bottom-right ul li a{
+
+}
 
 
 
