@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .float-right{
   float: right;
 }
@@ -52,7 +57,7 @@
 .header-top{
   /* width: 80%; */
   height: 80px;
-  background-color: lightblue;
+  background-color: #afebe4;
 
 }
 
