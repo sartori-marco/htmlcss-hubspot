@@ -277,7 +277,7 @@ main{
 
 .third-section{
   width: 80%;
-  height: 400px;
+  height: 800px;
   background-color: yellow;
   margin: auto;
   margin-top: 50px;
@@ -285,20 +285,73 @@ main{
 
 .marketing{
   width: 30%;
-  height: 400px;
+  height: 800px;
   background-color: violet;
+  background-image: url('https://www.hubspot.com/hubfs/Marketing-Hub-Free.svg');
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: top center;
+
 }
+
+/* <!-- parte top --> */
+.testo-marketing-top{
+  margin-top: 250px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.testo-marketing-top h2{
+  margin-bottom: 30px;
+}
+
+.testo-marketing-top h3{
+  margin-bottom: 40px;
+}
+
+.testo-marketing-top hr{
+  border: 1px solid black;
+
+}
+/* <!-- parte bottom --> */
+.testo-marketing-bottom h2{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.testo-marketing-bottom ul li{
+  display: block;
+  padding: 5px;
+  margin-left: 50px;
+
+}
+
+.testo-marketing-bottom ul{
+  margin-bottom: 60px;
+}
+
+
+.testo-marketin .button .border-orange{
+  margin-top: 20px;
+}
+
+
+
 
 .sales{
   width: 30%;
-  height: 400px;
+  height: 700px;
   background-color: violet;
-  margin: 5px;
+  margin: 0 5%;
 }
+
+
 
 .service{
   width: 30%;
-  height: 400px;
+  height: 700px;
   background-color: violet;
 }
 
