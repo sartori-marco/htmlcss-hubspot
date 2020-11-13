@@ -10,10 +10,6 @@ body{
 
 }
 
-/* header{
-  background-color: red;
-} */
-
 .float-right{
   float: right;
 }
@@ -23,8 +19,8 @@ body{
 }
 
 .border-orange{
-  background-color: orange;
-  border-radius: 20px;
+  background-color: #FF8E59;
+  border-radius: 10px;
   color: white;
   padding: 10px;
 }
@@ -35,7 +31,6 @@ body{
   color: orange;
   padding: 10px;
 }
-
 
 .clearfix::after {
   content: "";
@@ -53,15 +48,12 @@ a{
   width: 100%;
   height: 2000px;
   margin: auto;
-  /* background-color: yellow; */
 
 }
 
 .container-small{
   width: 80%;
   margin: 0 auto;
-
-
 }
 
 .header-top{
@@ -77,17 +69,11 @@ a{
   margin: auto;
 }
 
-
-
 .header-bottom{
   width: 100%;
   border-top: 1px solid black;
   height: 80px;
   margin-top: 80px;
-
-  /* margin-top: 80px; */
-  /* position: relative; */
-
 }
 
 .top-left{
@@ -96,12 +82,10 @@ a{
   padding: 20px;
   text-align: left;
   margin-left: 200px;
-
 }
 
 ul li {
   display: inline-block;
-
 }
 
 .top-right{
@@ -110,7 +94,6 @@ ul li {
   padding: 20px;
   text-align: right;
   margin-right: 200px;
-
 }
 
 .top-right nav ul li{
@@ -132,7 +115,7 @@ hr::after{
   height: 100%;
   width: 50%;
   padding: 30px;
-  margin-left: 200px;
+  margin-left: 190px;
   background-color: white;
 }
 
@@ -143,12 +126,6 @@ hr::after{
 .bottom-right ul li{
   margin-left: 15px;
 }
-
-
-/* .bottom-right ul {
-  padding: 30px;
-
-} */
 
 .bottom-right ul li{
   display: inline;
@@ -186,10 +163,6 @@ color: black;
   display: block;
 }
 
-
-
-
-
 h1{
   font-size: 50px;
 }
@@ -200,14 +173,12 @@ h1{
   top: 50%;
   left: 10%;
   transform: translateY(-50%);
-
 }
 
 .testo li {
   list-style: none;
   margin-top: 30px;
   border-radius: 20px;
-
 }
 
 .testo li a{
@@ -221,11 +192,6 @@ h1{
 .testo h3{
   padding-top: 20px;
 }
-
-
-
-
-
 
 /* inizio main */
 
