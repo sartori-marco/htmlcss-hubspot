@@ -46,7 +46,6 @@ a{
 
 .container{
   width: 100%;
-  height: 2000px;
   margin: auto;
 
 }
@@ -194,6 +193,48 @@ h1{
 }
 
 /* inizio main */
+/* inizio sezione 1 */
+.first-section{
+  width: 80%;
+  height: 400px;
+  background-color: red;
+  margin: auto;
+}
+
+
+
+/* inizio sezione 2 */
+.second-section{
+  width: 80%;
+  height: 400px;
+  background-color: green;
+  margin: auto;
+}
+
+
+
+/* inizio sezione 3 */
+.third-section{
+  width: 80%;
+  height: 400px;
+  background-color: yellow;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
