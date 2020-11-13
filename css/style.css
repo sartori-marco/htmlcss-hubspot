@@ -267,28 +267,42 @@ main{
   margin-top: 20px;
 }
 
-
-
-
-
 .button{
   padding: 30px;
   margin-left: 150px;
 }
 
 
-
-
-
-
-
 /* inizio sezione 3 */
+
 .third-section{
   width: 80%;
   height: 400px;
   background-color: yellow;
   margin: auto;
+  margin-top: 50px;
 }
+
+.marketing{
+  width: 30%;
+  height: 400px;
+  background-color: violet;
+}
+
+.sales{
+  width: 30%;
+  height: 400px;
+  background-color: violet;
+  margin: 5px;
+}
+
+.service{
+  width: 30%;
+  height: 400px;
+  background-color: violet;
+}
+
+
 
 
 
