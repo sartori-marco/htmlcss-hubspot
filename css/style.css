@@ -193,6 +193,9 @@ h1{
 }
 
 /* inizio main */
+main{
+  background-color: #fff4ef;
+}
 /* inizio sezione 1 */
 .first-section{
   width: 65%;
@@ -228,7 +231,28 @@ h1{
   height: 400px;
   background-color: green;
   margin: auto;
+  margin-top: 50px;
 }
+
+.img-book{
+  height: 50%;
+  width: 15%;
+  /* background-color: blue; */
+  background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/CRM-Illustration.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 100px;
+}
+
+.testo-second-section{
+  text-align: left;
+  line-height: 3;
+}
+
+
+
+
+
 
 
 
