@@ -78,7 +78,7 @@ a{
 .top-left{
   height: 100%;
   width: 30%;
-  padding: 20px;
+
   text-align: left;
   margin-left: 200px;
 }
@@ -90,7 +90,7 @@ ul li {
 .top-right{
   height: 100%;
   width: 30%;
-  padding: 20px;
+
   text-align: right;
   margin-right: 200px;
 }
@@ -194,13 +194,14 @@ h1{
 
 /* inizio main */
 main{
-  background-color: #fff4ef;
+  background-color: white;
 }
 /* inizio sezione 1 */
 .first-section{
   width: 65%;
   background-color: white;
   margin: auto;
+  margin-top: 50px;
 }
 
 .cubo{
@@ -229,19 +230,22 @@ main{
 .second-section{
   width: 80%;
   height: 400px;
-  background-color: green;
+  background-color: white;
   margin: auto;
   margin-top: 50px;
+  box-shadow: inset 5px 5px 5px -0.5px rgba(0, 0, 0, 0.1);
+
 }
 
 .img-book{
   height: 50%;
   width: 15%;
-  /* background-color: blue; */
   background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/_style-guide/sword-sprocket/CRM-Illustration.svg);
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 30px;
 }
 
 .testo-second-section{
@@ -249,6 +253,28 @@ main{
   line-height: 3;
 }
 
+.uppercase{
+  text-transform:uppercase;
+}
+
+.uppercase::after{
+  /* inserire linea */
+}
+
+.testo-second-section ul li i{
+  padding: 15px;
+  color: #FF8E59;
+  margin-top: 20px;
+}
+
+
+
+
+
+.button{
+  padding: 30px;
+  margin-left: 150px;
+}
 
 
 
