@@ -195,12 +195,31 @@ h1{
 /* inizio main */
 /* inizio sezione 1 */
 .first-section{
-  width: 80%;
-  height: 400px;
-  background-color: red;
+  width: 65%;
+  background-color: white;
   margin: auto;
 }
 
+.cubo{
+  height: 350px;
+  background-image: url('../img/cubo.webp');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 30%;
+  margin-top: 0;
+
+}
+
+.first-section h1{
+  text-align: center;
+  line-height: 1.6;
+
+}
+
+.first-section h3{
+  text-align: center;
+  line-height: 1.6;
+}
 
 
 /* inizio sezione 2 */
