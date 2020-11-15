@@ -505,60 +505,76 @@ main{
 }
 
 .date{
-  width: 20%;
+  width: 300px;
   height: 200px;
   background-color: red;
   margin-left: 60px;
   margin-top: 20px;
+  text-align: center;
+  color: white;
 }
-
-
-
-
-
 
 /* <!-- finish fourth section --> */
 
   /* <!-- start fifth section -->*/
 .fifth-section{
-    width: 80%;
-    height: 700px;
-    background-color: red;
-    margin: auto;
+  width: 80%;
+  height: 700px;
+  /* background-color: red; */
+  margin: auto;
   }
 .fifth-section .top-left{
-    width: 20%;
-    height: 20%;
-    background-color: yellow;
+  width: 300px;
+  height: 20%;
+  margin-top: 20px;
   }
 
 .fifth-section .top-left h2{
-    font-size: 250%;
-    text-align: center;
+  font-size: 250%;
+  text-align: center;
   }
 .fifth-section .top-left h3{
-    text-align: center;
-    padding-top: 20px;
+  text-align: center;
+  padding-top: 20px;
   }
 
 .fifth-section .top-right{
-  width: 40%;
-  height: 20%;
+  width: 800px;
+  height: 200px;
   background-color: violet;
+  margin-top: 20px;
   }
 
 /* start bottom */
 .fifth-section .bottom-left{
-  width: 40%;
+  width: 500px;;
   height: 400px;
-  background-color: orange;
+  margin-top: 50px;
+
+}
+
+.fifth-section .bottom-left h3{
   margin-top: 20px;
+  margin-bottom: 50px;
+
+}
+
+.fifth-section .bottom-left h4{
+  margin-top: 50px;
+}
+
+.fifth-section-button{
+  background-color: #FF8E59;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  padding: 20px;
+
 }
 
 .fifth-section .bottom-right{
   width: 40%;
   height: 400px;
-  background-color: yellow;
   margin-top: 20px;
   margin-right: 60px;
 }
@@ -571,7 +587,53 @@ main{
   background-repeat: no-repeat;
   background-position: right;
 
+}
 
+/* <!-- end fifth section -->*/
+/* start footer */
+footer{
+  width: 100vw;
+  height: 800px;
+  background-color: #2D3E50;
+}
+
+.footer-top{
+  width: 80%;
+  height: 400px;
+  background-color: blue;
+  margin: auto;
+}
+
+.column{
+  width: 300px;
+  height: 300px;
+  background-color: violet;
+  margin-left: 60px;
+  margin-top: 15px;
+  text-align: center;
+
+
+}
+
+
+.column ul li {
+  display: block;
+  margin-top: 15px;
+}
+
+.column ul li a{
+  color: white;
+}
+
+.column ul li a:hover{
+  color: red;
+}
+
+.column .button-support{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  color: #2D3E50;
 }
 
 
@@ -580,8 +642,15 @@ main{
 
 
 
-/* <!-- end fifth section -->*/
 
+
+
+.footer-bottom{
+  width: 80%;
+  height: 400px;
+  background-color: red;
+  margin: auto;
+}
 
 
 
