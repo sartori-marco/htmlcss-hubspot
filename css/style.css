@@ -567,9 +567,13 @@ main{
   background-color: #FF8E59;
   border-radius: 10px;
   padding: 10px;
-  color: white;
+
   padding: 20px;
 
+}
+
+.fifth-section-button a{
+  color: white;
 }
 
 .fifth-section .bottom-right{
@@ -593,32 +597,27 @@ main{
 /* start footer */
 footer{
   width: 100vw;
-  height: 800px;
+
   background-color: #2D3E50;
 }
 
 .footer-top{
   width: 80%;
-  height: 400px;
-  background-color: blue;
   margin: auto;
 }
 
 .column{
   width: 300px;
-  height: 300px;
-  background-color: violet;
   margin-left: 60px;
   margin-top: 15px;
   text-align: center;
 
-
 }
-
 
 .column ul li {
   display: block;
   margin-top: 15px;
+  padding: 5px;
 }
 
 .column ul li a{
@@ -636,25 +635,41 @@ footer{
   color: #2D3E50;
 }
 
-
-
-
-
-
-
-
-
-
+/* start footer bottom */
 .footer-bottom{
   width: 80%;
-  height: 400px;
-  background-color: red;
   margin: auto;
 }
 
+.footer-bottom .top{
+  text-align: center;
+}
+
+.footer-bottom hr{
+  border: 1px solid white;
+  margin-top: 10px;
+}
+
+.footer-bottom ul li a{
+  color: white;
+}
+
+.footer-bottom .copyright{
+  width: 300px;
+  margin-top: 20px;
+}
+
+.copyright h5{
+  color: white;
+}
 
 
-
+.footer-bottom .privacy-policy{
+  width: 300px;
+  margin-top: 20px;
+  text-align: right;
+  padding: 10px;
+}
 
 
 
