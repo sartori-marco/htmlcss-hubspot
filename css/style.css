@@ -504,17 +504,22 @@ main{
 }
 
 .date{
-  width: 300px;
-  margin-left: 60px;
-  margin-top: 20px;
-  /* margin-bottom: 50px; */
-  padding-bottom: 15px;
+  width: calc(100% / 4);
+  /* margin-top: 20px; */
   text-align: center;
   color: white;
   border-right: 2px solid white;
-
+  border-bottom: 2px solid white;
+  padding: 10px;
 }
 
+.date:nth-child(5n+0){
+  border-right: 0px;
+}
+
+.date:last-child{
+  border-right: 0px;
+}
 
 .date h2{
   font-size: 50px;
