@@ -640,7 +640,7 @@ footer{
   color: white;
 }
 
-.column ul li a:hover{
+.column li a:hover{
   color: red;
 }
 
@@ -651,6 +651,16 @@ footer{
   color: #2D3E50;
 }
 
+.column .icon i{
+  padding: 10px;
+}
+
+.column .icon i:hover{
+  color: lightblue;
+}
+
+
+
 /* start footer bottom */
 .footer-bottom{
   width: 80%;
@@ -659,7 +669,13 @@ footer{
 
 .footer-bottom .top{
   text-align: center;
+
 }
+
+.footer-bottom .top li a{
+  padding: 10px;
+}
+
 
 .footer-bottom hr{
   border: 1px solid white;
@@ -687,16 +703,9 @@ footer{
   padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.footer-bottom .privacy-policy li a{
+  padding: 10px;
+}
 
 /* fine main */
+/* end :)  */
