@@ -265,12 +265,19 @@ main{
   line-height: 3;
 }
 
-.uppercase{
-  text-transform:uppercase;
+.barra::after{
+  content: "";
+  display: block;
+  float: right;
+  width: 60%;
+  height: 3px;
+  margin-top: 25px;
+  background-color: #33475b;
 }
 
-.uppercase::after{
-  /* inserire linea */
+h5{
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .testo-second-section ul li i{
@@ -279,9 +286,7 @@ main{
   margin-top: 20px;
 }
 
-.learn-more{
-  margin-top: 50px;
-}
+
 /* inizio sezione 3 */
 
 .third-section{
@@ -483,7 +488,11 @@ main{
 
 .fourth-section{
   width: 100%;
-  background-image: linear-gradient(to right, blue , lightblue);
+  background-image: linear-gradient(to left, #00acb5,#00b2af,#00b6ab,#00bda5);
+}
+
+.img-book{
+  margin-bottom: 10px;
 }
 
 .content{
@@ -521,6 +530,21 @@ main{
   border-right: 0px;
 }
 
+.date:nth-child(6n+0){
+  border-bottom: 0px;
+}
+
+.date:nth-child(7n+0){
+  border-bottom: 0px;
+}
+
+.date:nth-child(8n+0){
+  border-bottom: 0px;
+}
+
+.date:nth-child(9n+0){
+  border-bottom: 0px;
+}
 .date h2{
   font-size: 50px;
   margin-bottom: 20px;
